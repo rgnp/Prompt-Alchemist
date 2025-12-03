@@ -13,8 +13,8 @@
 
 ## 🌟 核心理念 (Why DSPy?)
 
-传统的 Prompt Engineering 就像**“炼丹”**（不断手动试错、修改字符串）。
-本项目采用 **DSPy** 框架，将 Prompt 视为**“代码”**：
+传统的 Prompt Engineering 就像“**炼丹**”（不断手动试错、修改字符串）。
+本项目采用 **DSPy** 框架，将 Prompt 视为“**代码**”：
 
 1.  **声明式编程 (Declarative)**：我们定义“输入是什么”和“输出要什么”（Signature），而不是写死具体的 Prompt 字符串。
 2.  **思维链 (Chain of Thought)**：内置 `dspy.ChainOfThought` 模块，强迫 AI 在生成 Prompt 之前先进行逻辑推理 (Reasoning)，显著提升了输出质量。
